@@ -1,0 +1,608 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Homepage css Patrick */
+
+.mainHome-p {
+  height: auto;
+  width: 100%;
+}
+
+.homeMain-p {
+  display: flex;
+  gap: 40px;
+  padding: 30px;
+}
+
+.homeFlex-p {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.mainPost-p {
+  margin-top: 40px;
+}
+
+/* Search box CSS -Patrick */
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+#searchField-p {
+  background-color: #1d1d21;
+  width: 245px;
+  height: 60px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  font-size: 18px;
+  padding: 0 20px;
+  outline: none;
+  border: none;
+  color: #ffffff9e;
+}
+
+.searchInput-p {
+  display: flex;
+}
+
+.searchIcon-p {
+  width: 50px;
+  height: 60px;
+  background-color: #1d1d21;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SIcon-p:hover {
+  color: #31bfd2;
+  scale: 1.05;
+}
+
+.SIcon-p {
+  color: #ffffff9e;
+  font-size: 28px !important;
+  cursor: pointerx;
+  transition: 0.5s linear;
+}
+
+::placeholder {
+  font-size: 18px;
+  padding-left: 15px;
+}
+
+/* NavBar 1 css Patrick */
+
+.navBar-p {
+  display: flex;
+  width: 425px;
+  height: 60px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1d1d21;
+  border-radius: 15px;
+  border: none;
+}
+
+.Navicon-p {
+  font-size: 28px !important;
+  color: #ffffff9e;
+  transition: 0.5s linear;
+}
+
+.Navicon-p:hover {
+  color: #31bfd2;
+  scale: 1.05;
+}
+
+/* Navbar2 css patrick */
+
+.navBar2-p {
+  display: flex;
+  width: 350px;
+  height: 60px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1d1d21;
+  border-radius: 15px;
+  border: none;
+}
+
+.profileImg-p {
+  width: 30px;
+  height: 30px;
+}
+
+.profileImg-p img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50% !important;
+}
+
+.Navicon2-p {
+  font-size: 28px !important;
+  color: #ffffff9e;
+  transition: 0.5s linear;
+}
+
+.Navicon2-p:hover {
+  color: #31bfd2;
+  scale: 1.05;
+}
+
+/* Sidebar css patrick */
+
+.sideBar-p {
+  width: 350px;
+  background-color: #1d1d21;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.innerRow-p {
+  width: 80%;
+}
+
+.sideBar-p h3 {
+  color: #ffffffd4;
+}
+
+.butn {
+  background-color: #31bfd2;
+  width: 280px;
+  color: #ffffffd4;
+  padding: 15px 20px;
+  border-radius: 15px;
+  font-size: 18px;
+}
+
+.sideRow1-p,
+.sideRow2-p,
+.sideRow3-p,
+.sideRow4-p {
+  display: flex;
+  margin: 20px 0;
+  gap: 20px;
+  align-items: center;
+}
+
+.sideRow1-p h4,
+.sideRow2-p h4,
+.sideRow3-p h4,
+.sideRow4-p h4 {
+  font-size: 16px;
+  color: #ffffffd4;
+}
+
+.sideRow1-p h6,
+.sideRow2-p h6,
+.sideRow3-p h6,
+.sideRow4-p h6 {
+  font-size: 14px;
+  color: #ffffffd4;
+  opacity: 0.7;
+}
+
+.sideRow1-p > img,
+.sideRow2-p > img,
+.sideRow3-p > img,
+.sideRow4-p > img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+/* Activity Css Patrick */
+
+.updateStatus-p {
+  display: flex;
+  width: 100%;
+}
+
+.statusImg-p {
+  width: 60px;
+  height: 100px;
+  border: none;
+  outline: none;
+  background-color: #1d1d21;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.statusImg-p img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.updateStatus-p input {
+  width: 755px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #1d1d21;
+  outline: none;
+  border: none;
+  color: #ffffff9e;
+  font-size: 18px;
+}
+
+.uploadPhoto-p {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.uploadGrp-p,
+.postBtnGrp-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.galleryIcon-p,
+.uploadIcon-p {
+  width: 50px;
+  height: 50px;
+  background-color: #1d1d21;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  cursor: pointer;
+}
+
+.gIcon-p,
+.pIcon-p {
+  color: #31bfd2;
+  font-size: 24px !important;
+}
+
+.photoUploadBtn-p {
+  width: 200px;
+  height: 50px;
+  background-color: #1d1d21;
+  outline: none;
+  border: none;
+  color: #31bfd2;
+  font-size: 16px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  cursor: pointer;
+}
+
+.postBtn-p {
+  width: 200px;
+  height: 50px;
+  background-color: #1d1d21;
+  outline: none;
+  border: none;
+  color: #31bfd2;
+  font-size: 16px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  cursor: pointer;
+}
+
+.recentActivity-p > h3 {
+  margin-bottom: 20px;
+}
+
+/* settings css patrick */
+
+.settings-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  width: 350px;
+  background-color: #1d1d21;
+  border-radius: 15px;
+}
+
+.innerSettings-p {
+  width: 70%;
+}
+
+.innerSettings-p > h3 {
+  color: #ffffffd4;
+}
+
+.settings1-p,
+.settings2-p,
+.settings3-p,
+.settings4-p,
+.settings5-p,
+.settings6-p {
+  width: 100%;
+  color: #ffffffd4;
+  opacity: 0.7;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px !important;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.settings1-p:hover,
+.settings2-p:hover,
+.settings3-p:hover,
+.settings4-p:hover,
+.settings5-p:hover {
+  color: #31bfd2;
+}
+
+.theme-toggle {
+  transition: 1s linear;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #31bfd2;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #31bfd2;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/* Dark Theme Styles */
+.dark-theme {
+  color: #fff;
+}
+
+/* Custom property for background color */
+:root {
+  --default-bg-color: #f0f0f0; /* Set your default background color here */
+  --background-color: var(--default-bg-color);
+  --default-font-color: #111111;
+  --font-color: var(--default-font-color);
+}
+
+.mainHome-p {
+  background-color: var(--background-color);
+  color: var(--font-color);
+  transition: 0.7s linear;
+}
+
+.dark-theme .mainHome-p {
+  background-color: #111111;
+}
+
+.signOutBtn-p {
+  display: flex;
+  margin-top: 35px;
+  justify-content: center;
+}
+
+.signOutIcon-p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  background-color: #4a262a;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  cursor: pointer;
+}
+
+.logoutIcon-p {
+  transform: rotate(180deg);
+  color: #e84848;
+}
+
+.signOutBtn-p button {
+  width: 180px;
+  color: #e84848;
+  background-color: #4a262a;
+  padding: 20px 20px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Post Css Patrick */
+
+.innerPost-p {
+  width: 100%;
+}
+
+.postHeader-p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.innerPost-p > h2 {
+  margin-bottom: 20px;
+}
+
+.header1-p,
+.follow-p,
+.followBtn-p {
+  display: flex;
+  align-items: center;
+}
+
+.followBtn-p {
+  gap: 40px;
+}
+
+.header1-p {
+  gap: 20px;
+}
+
+.profileIcon-p {
+  width: 60px;
+  height: 60px;
+}
+
+.profileIcon-p img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.addBtn-p {
+  width: 30px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #31bfd2;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.followButn-p {
+  width: 80px;
+  height: 40px;
+  padding: 10px 25px;
+  display: flex;
+  justify-content: center;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  outline: none;
+  border: none;
+  background-color: #31bfd2;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.moreBtn-p {
+  display: flex;
+  align-items: center;
+}
+
+.moreIcon-p {
+  font-size: 28px !important;
+}
+
+.mediaPost-p {
+  width: 100%;
+  height: 350px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.mediaPost-p img {
+  width: 95%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.socialInteractions-p {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.likes-p,
+.comments-p,
+.share-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  gap: 8px;
+  height: 60px;
+  background-color: #1d1d21;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+}
+
+.innerLike-p,
+.innerComment-p,
+.innerShare-p {
+  display: flex;
+  gap: 3px;
+}
+
+.commentIcon-p,
+.shareIcon-p {
+  color: #31bfd2;
+}
+
+.likeIcon-p {
+  cursor: pointer;
+}
+
+.liked {
+  color: red; /* Change this to the color you want */
+}

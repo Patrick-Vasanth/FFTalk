@@ -1,8 +1,11 @@
-import logo from "./logo.svg";
-import "./App.css";
+import HomePage from "./Pages/Components/HomePage";
 
 function App() {
-  return <div className="main"></div>;
+  return (
+    <div className="main">
+      <HomePage />
+    </div>
+  );
 }
 
 export default App;
